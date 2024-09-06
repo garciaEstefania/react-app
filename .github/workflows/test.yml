@@ -2,7 +2,7 @@ name: Test Project
 on: push
 jobs:
   test:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: clone repo
         uses: actions/checkout@v3
